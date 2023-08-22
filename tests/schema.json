@@ -1,0 +1,544 @@
+[
+  {
+    "ordinal": 1,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Accounting Center Batch",
+      "id": "0a02886b75fb1000a5638feb2178038c"
+    },
+    "name": "AC_Batch",
+    "displayName": "AC_Batch",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 2,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Primary Process",
+      "id": "ce94c4d35e1610001c3f44acde0900f9"
+    },
+    "name": "AC_Batch_Run",
+    "displayName": "AC_Batch_Run",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 3,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "AC_Transaction_ID",
+    "displayName": "AC_Transaction_ID",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 4,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Billing_Code",
+    "displayName": "Billing_Code",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 5,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Channel",
+    "displayName": "Channel",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 6,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Company",
+    "displayName": "Company",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 7,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Cost_Center",
+    "displayName": "Cost_Center",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 8,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Customer",
+    "displayName": "Customer",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 9,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Division",
+    "displayName": "Division",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 10,
+    "parseFormat": "dd/MM/yyyy",
+    "type": {
+      "id": "fdd7dd26156610006a71e070b08200d6",
+      "descriptor": "Date"
+    },
+    "name": "Due_Date",
+    "displayName": "Due_Date",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 11,
+    "type": {
+      "id": "32e3fa0dd9ea1000072bac410415127a",
+      "descriptor": "Numeric"
+    },
+    "precision": 19,
+    "name": "Employee",
+    "displayName": "Employee",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 12,
+    "type": {
+      "id": "32e3fa0dd9ea1000072bac410415127a",
+      "descriptor": "Numeric"
+    },
+    "precision": 19,
+    "name": "Extended_Amount",
+    "displayName": "Extended_Amount",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 13,
+    "parseFormat": "dd/MM/yyyy",
+    "type": {
+      "id": "fdd7dd26156610006a71e070b08200d6",
+      "descriptor": "Date"
+    },
+    "name": "Invoice_Date",
+    "displayName": "Invoice_Date",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 14,
+    "type": {
+      "id": "32e3fa0dd9ea1000072bac410415127a",
+      "descriptor": "Numeric"
+    },
+    "precision": 19,
+    "name": "Invoice_Line",
+    "displayName": "Invoice_Line",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 15,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Invoice_Type",
+    "displayName": "Invoice_Type",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 16,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "LOB",
+    "displayName": "LOB",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 17,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Payment_Terms",
+    "displayName": "Payment_Terms",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 18,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Payment_Type",
+    "displayName": "Payment_Type",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 19,
+    "type": {
+      "id": "32e3fa0dd9ea1000072bac410415127a",
+      "descriptor": "Numeric"
+    },
+    "precision": 19,
+    "name": "Quantity",
+    "displayName": "Quantity",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 20,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Region",
+    "displayName": "Region",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 21,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Revenue_Category",
+    "displayName": "Revenue_Category",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 22,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Sales_Item",
+    "displayName": "Sales_Item",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 23,
+    "type": {
+      "id": "32e3fa0dd9ea1000072bac410415127a",
+      "descriptor": "Numeric"
+    },
+    "precision": 19,
+    "name": "Total_Invoice_Amount",
+    "displayName": "Total_Invoice_Amount",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 24,
+    "type": {
+      "id": "32e3fa0dd9ea1000072bac410415127a",
+      "descriptor": "Numeric"
+    },
+    "precision": 19,
+    "name": "Unit_Price",
+    "displayName": "Unit_Price",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 25,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "UOM",
+    "displayName": "UOM",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 26,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Channel",
+      "id": "b81a6b32a64910000658d5f97d030029"
+    },
+    "name": "Channel1",
+    "displayName": "Channel1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 27,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Channel_Condition",
+    "displayName": "Channel_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 28,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Cost Center",
+      "id": "89b94d1da24d4346997fdb640e465894"
+    },
+    "name": "Cost_Center1",
+    "displayName": "Cost_Center1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 29,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Cost_Center_Condition",
+    "displayName": "Cost_Center_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 30,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Division",
+      "id": "a30a60c7df5110000a63681c5ca94006"
+    },
+    "name": "Division1",
+    "displayName": "Division1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 31,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Division_Condition",
+    "displayName": "Division_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 32,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Line of Business",
+      "id": "e7a919ca8904100004dc0655b40cea5a"
+    },
+    "name": "Line_of_Business1",
+    "displayName": "Line_of_Business1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 33,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Region",
+      "id": "eecb565181284b6a8ae8b45dc3ed1451"
+    },
+    "name": "Region1",
+    "displayName": "Region1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 34,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Region_Condition",
+    "displayName": "Region_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 35,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Revenue Category",
+      "id": "2b72042e09894a7ea5539057db5111bb"
+    },
+    "name": "Revenue_Category1",
+    "displayName": "Revenue_Category1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 36,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Revenue_Category_Condition",
+    "displayName": "Revenue_Category_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 37,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Sales Item",
+      "id": "23d4c51944a84df899c29807f8909ad7"
+    },
+    "name": "Sales_Item1",
+    "displayName": "Sales_Item1",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 38,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Sales_Item_Condition",
+    "displayName": "Sales_Item_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 39,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Company",
+      "id": "6ce3280a64904b41b1c0efac5b4a136c"
+    },
+    "name": "Company2",
+    "displayName": "Company2",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 40,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Line_of_Business_Condition",
+    "displayName": "Line_of_Business_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 41,
+    "type": {
+      "id": "db9cd1dbf95010000e8fc7c78cd012a9",
+      "descriptor": "Instance"
+    },
+    "businessObject": {
+      "descriptor": "Integration Worktag Mapping Detail",
+      "id": "047f3f77746b1000084d0c73795700c9"
+    },
+    "name": "Billing_Code_Condition",
+    "displayName": "Billing_Code_Condition",
+    "required": false,
+    "externalId": false
+  },
+  {
+    "ordinal": 42,
+    "type": {
+      "id": "fdd7dd26156610006a12d4fd1ea300ce",
+      "descriptor": "Text"
+    },
+    "name": "Invoice",
+    "displayName": "Invoice",
+    "required": false,
+    "externalId": false
+  }
+]

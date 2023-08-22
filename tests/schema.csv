@@ -1,0 +1,43 @@
+name,displayName,ordinal,type,businessObject,precision,scale,parseFormat,required,externalId
+AC_Batch,"AC_Batch",1,Instance,"Accounting Center Batch",,,"",False,False
+AC_Batch_Run,"AC_Batch_Run",2,Instance,"Primary Process",,,"",False,False
+AC_Transaction_ID,"AC_Transaction_ID",3,Text,"",,,"",False,False
+Billing_Code,"Billing_Code",4,Text,"",,,"",False,False
+Channel,"Channel",5,Text,"",,,"",False,False
+Company,"Company",6,Text,"",,,"",False,False
+Cost_Center,"Cost_Center",7,Text,"",,,"",False,False
+Customer,"Customer",8,Text,"",,,"",False,False
+Division,"Division",9,Text,"",,,"",False,False
+Due_Date,"Due_Date",10,Date,"",,,"dd/MM/yyyy",False,False
+Employee,"Employee",11,Numeric,"",19,,"",False,False
+Extended_Amount,"Extended_Amount",12,Numeric,"",19,,"",False,False
+Invoice_Date,"Invoice_Date",13,Date,"",,,"dd/MM/yyyy",False,False
+Invoice_Line,"Invoice_Line",14,Numeric,"",19,,"",False,False
+Invoice_Type,"Invoice_Type",15,Text,"",,,"",False,False
+LOB,"LOB",16,Text,"",,,"",False,False
+Payment_Terms,"Payment_Terms",17,Text,"",,,"",False,False
+Payment_Type,"Payment_Type",18,Text,"",,,"",False,False
+Quantity,"Quantity",19,Numeric,"",19,,"",False,False
+Region,"Region",20,Text,"",,,"",False,False
+Revenue_Category,"Revenue_Category",21,Text,"",,,"",False,False
+Sales_Item,"Sales_Item",22,Text,"",,,"",False,False
+Total_Invoice_Amount,"Total_Invoice_Amount",23,Numeric,"",19,,"",False,False
+Unit_Price,"Unit_Price",24,Numeric,"",19,,"",False,False
+UOM,"UOM",25,Text,"",,,"",False,False
+Channel1,"Channel1",26,Instance,"Channel",,,"",False,False
+Channel_Condition,"Channel_Condition",27,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Cost_Center1,"Cost_Center1",28,Instance,"Cost Center",,,"",False,False
+Cost_Center_Condition,"Cost_Center_Condition",29,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Division1,"Division1",30,Instance,"Division",,,"",False,False
+Division_Condition,"Division_Condition",31,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Line_of_Business1,"Line_of_Business1",32,Instance,"Line of Business",,,"",False,False
+Region1,"Region1",33,Instance,"Region",,,"",False,False
+Region_Condition,"Region_Condition",34,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Revenue_Category1,"Revenue_Category1",35,Instance,"Revenue Category",,,"",False,False
+Revenue_Category_Condition,"Revenue_Category_Condition",36,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Sales_Item1,"Sales_Item1",37,Instance,"Sales Item",,,"",False,False
+Sales_Item_Condition,"Sales_Item_Condition",38,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Company2,"Company2",39,Instance,"Company",,,"",False,False
+Line_of_Business_Condition,"Line_of_Business_Condition",40,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Billing_Code_Condition,"Billing_Code_Condition",41,Instance,"Integration Worktag Mapping Detail",,,"",False,False
+Invoice,"Invoice",42,Text,"",,,"",False,False

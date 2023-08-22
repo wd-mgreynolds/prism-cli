@@ -1,0 +1,19 @@
+[default]
+workday_base_url = {base_url}
+workday_tenant_name = {tenant_name}
+workday_username = {username}
+workday_password = {password}
+api_client_id = {client_id}
+api_client_secret = {client_secret}
+api_refresh_token = {refresh_token}
+log_level = DEBUG
+
+[example]
+workday_base_url = {base_url}
+workday_tenant_name = {tenant_name}
+workday_username = {username}
+workday_password = {password}
+api_client_id = {client_id}
+api_client_secret = {client_secret}
+api_refresh_token = {refresh_token}
+log_level = DEBUG
